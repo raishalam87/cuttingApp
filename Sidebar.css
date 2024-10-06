@@ -1,0 +1,39 @@
+.sidebar {
+    width: 250px;
+    background-color: #111;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 160vh;
+    overflow: auto; 
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+    color: #fff;
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+}
+.sidebar h2{
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.sidebar p{
+    color: #777;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.side-link{
+    text-decoration: none;
+}

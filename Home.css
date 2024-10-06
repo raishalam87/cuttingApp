@@ -1,0 +1,85 @@
+.home {
+    flex-grow: 1; /* Take remaining space */
+    padding: 20px;
+    background: #111;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px;
+}
+.home-pragrapgh{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.home-button{
+    display: flex;
+    justify-content: center;
+
+}
+.home-btn{
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #430ec9; 
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.home-container{
+    display: flex;
+    justify-content: space-around;
+}
+.top-heading{
+    font-size: 15px;
+    color: #ddd;
+    padding: 40px 0px;
+}
+.home-button-heading{
+    color: #ddd;
+    font-size: 40px;
+    font-weight: 500;
+}
+.side-lines{
+    border-left: 5px solid #430ec9;
+}
+.side-lines h3{
+    color: #ddd;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-section{
+    background: #000;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding: 50px;
+    height: 150vh;
+}
+.home-button-heading{
+    font-size: 40px;
+    color: #ddd;
+    padding: 10px 30px;
+}
+.home-privacy-heading{
+    color: #ddd;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 40px 0px;
+}
